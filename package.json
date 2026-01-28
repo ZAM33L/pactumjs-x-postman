@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4",
+    "pactum": "^3.9.0"
+  },
+  "scripts": {
+    "test": "mocha \"SimpleBooksAPI/tests/**/*.{test,spec}.js\"",
+    "test:simplebooks:status": "mocha SimpleBooksAPI/tests/getStatus.test.js",
+    "test:simplebooks:getlistOfBooks": "mocha SimpleBooksAPI/tests/getListOfBooks.test.js",
+    "test:simplebooks:getsingleBook": "mocha SimpleBooksAPI/tests/getABook.test.js",
+    "test:simplebooks:getAnOrder": "mocha SimpleBooksAPI/tests/getAnOrder(chained).test.js",
+    "test:simplebooks:getOrders": "mocha SimpleBooksAPI/tests/getOrders(chained).test.js",
+    "test:simplebooks:postclientRegn": "mocha SimpleBooksAPI/tests/postClientRegn.test.js",
+    "test:simplebooks:postClientandOrder": "mocha SimpleBooksAPI/tests/postOrder(chained).test.js",
+    "test:simplebooks:patchAnOrder": "mocha SimpleBooksAPI/tests/patchAnOrder(chained).test.js",
+    "test:simplebooks:deleteAnOrder": "mocha SimpleBooksAPI/tests/de4AnOrder(chained).test.js",
+    "test:coffeehouse:status": "mocha SimpleBooksAPI/tests/getStatus.test.js",
+    "test:coffeehouse:getAllProducts": "mocha SimpleBooksAPI/tests/getAllProducts.test.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.2.0"
+  }
+}
