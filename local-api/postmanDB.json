@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Hello World",
+      "body": "My first post",
+      "author": "Asfer"
+    },
+    {
+      "id": "2",
+      "title": "Hello India",
+      "body": "My first post",
+      "author": "Frances Jones"
+    },
+    {
+      "id": "9c7f",
+      "title": "My Test Post",
+      "body": "This is a dynamic post body"
+    },
+    {
+      "id": "8fe5",
+      "title": "My Test Post",
+      "body": "This is a dynamic post body"
+    },
+    {
+      "id": "8dbf",
+      "title": "My Test Post",
+      "body": "This is a dynamic post body"
+    }
+  ]
+}
