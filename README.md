@@ -4,7 +4,7 @@ This project demonstrates **API testing using PactumJS**, inspired by **Postman 
 
 It is designed to show how Postman-style API testing can be translated into **code-first, scalable API tests** using **Node.js + PactumJS**.
 
-As of 28-01-2026 , PactumJS learnings is still to be implemented in Postman
+As of 28-01-2026 , CoffeeHouseAPI run is pending as the API server is down
 
 ---
 
